@@ -1,0 +1,38 @@
+.cardMovies{
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+}
+
+.cardMovies .text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardMovies .text p{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.cardMovies img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+.cardMovies:hover img{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.h3:hover, p:hover{
+    text-decoration: none !important;
+}
